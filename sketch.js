@@ -100,6 +100,7 @@ function draw() {
     restart.visible = true;
     if (keyDown("space")){
       reset();
+      trex.setAnimation(trex_running)
     }
     //set velcity of each game object to 0
     ground.velocityX = 0;
